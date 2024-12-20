@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Free Stock Videos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .grid-item {
+            position: relative;
+            overflow: hidden;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .grid-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 10px;
+        }
+
+        .grid-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .grid-item a {
+            text-decoration: none;
+        }
+
+        .grid-item .label {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            padding: 10px;
+            font-size: 14px;
+            border-radius: 0 0 10px 10px;
+        }
+
+        header, footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #222;
+            color: #fff;
+        }
+
+        footer ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        footer ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Free Stock Videos</h1>
+    </header>
+
+    <main>
+        <div class="grid-container">
+            <!-- Repeat this block for each frame -->
+            <div class="grid-item">
+                <a href="#">
+                    <img src="maxresdefault (4).jpg" alt="Stock Video Thumbnail">
+                    <div class="label">Stock Video 1</div>
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="#">
+                    <img src="maxresdefault (4).jpg" alt="Stock Video Thumbnail">
+                    <div class="label">Stock Video 2</div>
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="#">
+                    <img src="maxresdefault (4).jpg" alt="Stock Video Thumbnail">
+                    <div class="label">Stock Video 3</div>
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="#">
+                    <img src="maxresdefault (4).jpg" alt="Stock Video Thumbnail">
+                    <div class="label">Stock Video 4</div>
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="#">
+                    <img src="maxresdefault (4).jpg" alt="Stock Video Thumbnail">
+                    <div class="label">Stock Video 5</div>
+                </a>
+            </div>
+            <!-- Add additional blocks as needed -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pixel Paradise. All Rights Reserved.</p>
+        <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
